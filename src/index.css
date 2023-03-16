@@ -237,3 +237,66 @@ body{
 #about-para{
   margin-bottom: 40px;
 }
+
+
+
+/* ----------------COUNTER----------------------- */
+.parallax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 20vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0, 0, 0, 0.68)), url(../public/images/counter.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(255, 255, 255);
+}
+
+
+.col_half { width: 49%; }
+.col_third { width: 32%; }
+.col_fourth { width: 23.5%; }
+.col_fifth { width: 18.4%; }
+.col_sixth { width: 15%; }
+.col_three_fourth { width: 74.5%;}
+.col_twothird{ width: 66%;}
+.col_half,
+.col_third,
+.col_twothird,
+.col_fourth,
+.col_three_fourth,
+.col_fifth{
+   position: relative;
+   display:inline;
+   display: inline-block;
+   float: left;
+   margin-right: 2%;
+   margin-bottom: 20px;
+}
+.end { margin-right: 0 !important; }
+/* Column Grids End */
+
+.wrapper { 
+  width: 980px;
+   margin: 30px auto;
+    position: relative;
+  
+  }
+.counter { background-color: #ffffff00; padding: 20px 0; border-radius: 5px;}
+.count-title { font-size: 40px; font-weight: bold;  margin-top: 10px; margin-bottom: 0; text-align: center; color: white; }
+.count-text { font-size: 20px; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; color: white;}
+.fa-2x { margin: 0 auto; float: none; display: table; color: #4ad1e5; }
+
+#counter-container{
+  background-color: red;
+  height: 300px;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* background-image: url(../public/images/ajce4.png); */
+}
+
+
