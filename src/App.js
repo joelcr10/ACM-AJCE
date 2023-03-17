@@ -3,6 +3,9 @@ import Navbar from './Navbar';
 import Home from './Home';
 import About from './About'
 import Counter  from './Counter';
+import Events from './Events';
+import Events2 from './Events2';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
       </div>
       <About />
       <Counter />
+      {/* <Events/> */}
+      <Events2/>
+      <Footer/>
       
     </div>
   );

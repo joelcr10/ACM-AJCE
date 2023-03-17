@@ -10,7 +10,7 @@ const About = () => {
     return ( 
         <div className="about">
             <h1>ACM AJCE</h1>
-            <hr id="about-line"></hr>
+            <div id="about-line"></div>
             <p id="about-para">ACM AJCE Student Chapter promotes computer machinery through seminars, events, competitions and exhibitions.</p>
             
             
