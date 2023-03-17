@@ -1,4 +1,6 @@
 // import About from './About'
+import { AwesomeButton } from "react-awesome-button";
+import 'react-awesome-button/dist/styles.css';
 const Home = () => {
     return (
         <div> 
@@ -15,7 +17,8 @@ const Home = () => {
                     <h2 className="acmajce"><span id="acm">ACM</span> <span style={{color: 'white'}}>AJCE</span></h2>
                     <h1>ASSOCIATION OF COMPUTING AND <span style={{color: 'white'}}>MACHINERY</span></h1>
 
-                    <button className="exploreButton">EXPLORE</button>
+                    <button id="exploreButton">EXPLORE</button>
+                    {/* <AwesomeButton type="primary">Primary</AwesomeButton> */}
                 </div>
             </div>
             <div className="about">

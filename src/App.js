@@ -22,7 +22,6 @@ function App() {
       </div>
       <About />
       <Counter />
-      {/* <Events/> */}
       <Events2/>
       <Footer/>
       
