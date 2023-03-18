@@ -5,7 +5,7 @@ const Navbar = () => {
             <img src={logo} className="navbar-logo" alt="acm logo"></img>
             <div className="links">
                 <a href="/">HOME</a>
-                <a href="/">ABOUT US</a>
+                <a href="/">ABOUT</a>
                 <a href="/">EVENTS</a>
                 <a href="/">EXECOM</a>
                 <a href="/">MEMBERSHIP</a>

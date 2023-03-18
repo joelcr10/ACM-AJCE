@@ -67,6 +67,28 @@ body{
 
 
 /* --------------------------HOME----------------------------------- */
+
+.hero-slider-overlay {
+  color: rgb(255, 255, 255);
+  background-color: #00000064;
+  /* animation-name: overlay-effect;
+  animation-duration: 3s;
+  overflow-y: hidden;
+  z-index: 5; */
+
+}
+
+/* @keyframes overlay-effect{
+  from{width: 0%;}
+  to{width: 100%;}
+} */
+
+#hero-acm{
+  color: rgb(59, 169, 213);
+}
+
+
+
 .homeBackground{
   background-color: blue;
   margin-top: -10vh;
